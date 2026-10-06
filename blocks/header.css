@@ -15,3 +15,25 @@ header {
   font-weight: 900;
   margin: 22px 0 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .header__logo {
+    width: 32px;
+    height: 30px;
+  }
+
+  .header__text {
+    margin: 20px 0 0;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .header__logo {
+    width: 24px;
+    height: 24px;
+  }
+
+  .header__text {
+    margin: 17px 0 0;
+  }
+}

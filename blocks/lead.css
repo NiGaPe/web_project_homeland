@@ -30,3 +30,31 @@
   width: 100%;
   margin: 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .lead__title {
+    font-size: 75px;
+    line-height: 79px;
+    width: calc(100% - (119px * 2));
+  }
+
+  .lead__text {
+    width: calc(100% - (24px * 2));
+    margin: 25px 0 30px;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .lead__title {
+    font-size: 75px;
+    line-height: 79px;
+    width: calc(100% - (46px * 2));
+  }
+
+  .lead__text {
+    width: calc(100% - (16px * 2));
+    margin: 16px 0 40px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
