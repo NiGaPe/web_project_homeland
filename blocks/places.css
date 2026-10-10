@@ -1,6 +1,20 @@
 .places {
   display: grid;
   row-gap: 80px;
-  margin: 92px 0 90px 0;
-  width: calc(100% - 148px - 145px);
+  margin: 92px auto 90px;
+  width: calc(100% - 151px - 145px);
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    margin: 88px auto 90px;
+    width: calc(100% - (24px * 2));
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .places {
+    margin: 62px 0 65px;
+    width: 100%;
+  }
 }

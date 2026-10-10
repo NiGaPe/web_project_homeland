@@ -38,12 +38,14 @@
   line-height: 163%;
   letter-spacing: 0%;
   margin: 0 auto;
-  padding-right: 8px;
+  padding-right: 108px;
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
-    margin: 90px 24px 88px;
+    margin: 90px auto 64px;
+    padding-right: 0;
+    max-width: calc(100% - (24px * 2));
   }
 
   .intro__title {
@@ -68,7 +70,8 @@
 
 @media screen and (max-width: 543px) {
   .intro {
-    margin: 64px 16px;
+    margin: 64px auto 38px;
+    max-width: calc(100% - (16px * 2));
   }
 
   .intro__title {

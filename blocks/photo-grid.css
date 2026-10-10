@@ -9,3 +9,18 @@
   display: block;
   width: 100%;
 }
+
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    width: calc(100% - (24px * 2));
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .photo-grid {
+    grid-template-columns: repeat(1, 1fr);
+    width: calc(100% - (16px * 2));
+    gap: 12px;
+  }
+}
