@@ -10,7 +10,7 @@
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 900;
   font-size: 96px;
-  line-height: 100px;
+  line-height: 1.04;
   letter-spacing: 0%;
   text-align: center;
   margin: 0;
@@ -20,7 +20,7 @@
 .lead__text {
   font-weight: 400;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 1.2;
   letter-spacing: 0%;
   text-align: center;
   margin: 32px 0 64px;
@@ -40,7 +40,7 @@
 
   .lead__title {
     font-size: 75px;
-    line-height: 79px;
+    line-height: 1.05;
     width: calc(100% - (119px * 2));
   }
 
@@ -57,7 +57,7 @@
 
   .lead__title {
     font-size: 40px;
-    line-height: 44px;
+    line-height: 1.1;
     width: calc(100% - (46px * 2));
   }
 
@@ -65,6 +65,6 @@
     width: 100%;
     margin: 16px 16px 40px;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
   }
 }
